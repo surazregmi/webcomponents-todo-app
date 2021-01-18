@@ -71,7 +71,7 @@ $todoItem.addEventListener('onToggle', this._toggleTodo.bind(this));
 
 
 _addTodo() {
-    console.log("i am here");
+   
     if(this.$input.value.length > 0){
         this._todos.push({ text: this.$input.value, checked: false })
         this._renderTodoList();

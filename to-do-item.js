@@ -55,8 +55,7 @@ this.$checkbox.addEventListener('click', (e) => {
 
 
 connectedCallback() {
-    // We set a default attribute here; if our end user hasn't provided one,
-    // our element will display a "placeholder" text instead.
+    
     if(!this.hasAttribute('text')) {
         this.setAttribute('text', 'placeholder');
     }
